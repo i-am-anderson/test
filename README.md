@@ -11,6 +11,8 @@ $$ |  \$$$$$$$ | \$$$$  |\$$$$$$$\ \$$$$$$$\       $$$$$$$$\ $$$$$$$$\
 
 # Exercícios - ISO030 Sistemas Operacionais
 
+Use o [link](https://codesandbox.io/p/github/i-am-anderson/python-exercises-ISO030/main?import=true) para visualizar no CodeSandbox
+
 ## Lote 1.1
 
 1. Coletar o valor do lado de um quadrado, calcular sua área e apresentar o resultado.
