@@ -3,7 +3,6 @@
 # DECLARAÇÃO DE VARIÁVEIS
 x: str = ""
 y: str = ""
-z: str = ""
 
 # INICIO
 x = input("Digite um valor para x: ")
