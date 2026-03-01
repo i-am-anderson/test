@@ -9,6 +9,8 @@ $$ |  \$$$$$$$ | \$$$$  |\$$$$$$$\ \$$$$$$$\       $$$$$$$$\ $$$$$$$$\
 \__|   \_______|  \____/  \_______| \_______|      \________|\________|
 ```
 
+Os scripts podem ser executados diretamente no navegador [clicando aqui]("https://pyground-lyart.vercel.app/")
+
 # Exercícios em Python - ISO030 Sistemas Operacionais
 
 ## Lote 1.1
