@@ -9,6 +9,6 @@ avg_speed: float = 0.0
 # INICIO
 time = float(input("Digite o tempo do percurso (horas): "))
 avg_speed = float(input("Digite a velocidade média do percurso (km/h): "))
-quantity_l = (avg_speed / time) / consumption_km_per_l
+quantity_l = (avg_speed * time) / consumption_km_per_l
 print(f"Um veículo que consome {consumption_km_per_l} km/l fazendo um percurso de {time:,.2f} hora(s) a uma velocidade média de {avg_speed:,.2f} km/h, consumirá {quantity_l:,.2f} litros de combustível!")
 # FIM
