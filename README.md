@@ -9,7 +9,7 @@ $$ |  \$$$$$$$ | \$$$$  |\$$$$$$$\ \$$$$$$$\       $$$$$$$$\ $$$$$$$$\
 \__|   \_______|  \____/  \_______| \_______|      \________|\________|
 ```
 
-Os scripts podem ser executados diretamente no navegador [clicando aqui](https://pyground.anderzone.com.br/)
+Os scripts podem ser executados diretamente no navegador [clicando aqui](https://pyground.anderzone.com.br/python-exercises-ISO030)
 
 # Exercícios em Python - ISO030 Sistemas Operacionais
 
