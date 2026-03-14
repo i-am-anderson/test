@@ -4,20 +4,21 @@
 sum_: float = 0
 
 # INICIO
+print("SÉRIE:")
 for x in range(1, 16):
     if (x != 1):
-        print(f"{x}/{x ** 2}")
+        print(f"{x}/{x ** 2}", end="")
     else:
-        print("1")
+        print("1", end="")
 
     if (x % 2 == 0 and (x < 16 - 1)):
         sum_ -= (x/x ** 2)
-        print(" + ")
+        print(" + ", end="")
     elif (x % 2 != 0 and (x < 16 - 1)):
         sum_ += (x/x ** 2)
-        print(" - ")
+        print(" - ", end="")
     else:
         sum_ += (x/x ** 2)
-        print(" = ")
-print(sum_)
+        print(" = ", end="")
+print(f"{sum_:,.2f}", end="")
 # FIM

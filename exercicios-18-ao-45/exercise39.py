@@ -7,6 +7,6 @@ casa: int = 1
 qtde: int = 1
 
 # INICIO
-for i in range(1, 64, 1):
+for i in range(0, 64, 1):
     print(f"Casa: {i + 1} - Qtde: {2**i}")
 # FIM

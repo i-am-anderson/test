@@ -6,7 +6,7 @@ b: int = 0
 
 # INICIO
 a = int(input("Primeiro número: "))
-b = int(input("SEgundo número: "))
+b = int(input("Segundo número: "))
 if (a >= b and a % b == 0):
     print(f"A = {a} é múltiplo de B = {b}")
 elif (a < b and b % a == 0):

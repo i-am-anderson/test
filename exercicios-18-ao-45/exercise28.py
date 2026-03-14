@@ -11,8 +11,9 @@ media_mensal: int = 0
 preco_novo: float = 0
 
 # INICIO
-preco_atual = float(input(">>>"))
-media_mensal = int(input(">>>"))
+while (preco_atual <= 0 and media_mensal <= 0):
+    preco_atual = float(input("Digite o preço atual: "))
+    media_mensal = int(input("Digite a media mensal: "))
 if (media_mensal < 500 or preco_atual < 30.00):
     preco_novo = preco_atual * 1.1
 elif ((media_mensal >= 500 and media_mensal < 1000) or (preco_atual >= 30.00 and preco_atual < 80.00)):
@@ -22,5 +23,5 @@ elif ((media_mensal >= 1000) or (preco_atual >= 80.00)):
 else:
     preco_novo = preco_atual
 
-print(f"R$ {preco_novo:,.2f}")
+print(f"O novo preço será: R$ {preco_novo:,.2f}")
 # FIM

@@ -6,9 +6,9 @@ exp: int = 0
 pot: int = 1
 
 # INICIO
-base = int(input("base: "))
-exp = int(input("expoente: "))
+base = int(input("Digite a base: "))
+exp = int(input("Digite o expoente: "))
 for _ in range(exp):
     pot *= base
-print(pot)
+print(f"{base}^{exp} = {pot}")
 # FIM

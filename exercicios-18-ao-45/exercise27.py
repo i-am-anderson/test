@@ -9,11 +9,11 @@ ext: int = 0
 
 # INICIO
 while (n_voltas <= 0 and e_circuito <= 0 and t_duracao <= 0):
-    n_voltas = int(input(">>>"))
-    e_circuito = int(input("(metros)>>>"))
-    t_duracao = int(input("(minutos)>>>"))
+    n_voltas = int(input("Digite o número de voltas: "))
+    e_circuito = int(input("Digite a extensão do circuito (metros): "))
+    t_duracao = int(input("Digite o tempo de duração (minutos): "))
 
 ext = n_voltas * e_circuito
 v_media = (ext / 1000) / (t_duracao / 60)
-print(f"{v_media}km/h")
+print(f"A velocidade média é de {v_media}km/h")
 # FIM

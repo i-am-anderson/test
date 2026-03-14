@@ -8,8 +8,9 @@ ehPrimo: bool = True
 
 # INICIO
 while ((a <= 0 and b <= 0) or a >= b):
-    a = int(input(">>>"))
-    b = int(input(">>>"))
+    a = int(input("Digite o primeiro número: "))
+    b = int(input("Digite o segundo número: "))
+print(f"Os números primos entre {a} e {b} são:")
 for n in range(a, b, 1):
     if (n > 2):
         ehPrimo = True
@@ -19,5 +20,5 @@ for n in range(a, b, 1):
                 ehPrimo = False
                 break
         if ehPrimo:
-            print(n, ",")
+            print(n, end=", ")
 # FIM

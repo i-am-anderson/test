@@ -7,7 +7,8 @@ curr: int = 0
 n: int = 0
 
 # INICIO
-n = int(input(">>>: "))
+while (n <= 0):
+    n = int(input("Digite um número inteiro: "))
 
 for _ in range(n):
     if (x == 0):
@@ -17,5 +18,5 @@ for _ in range(n):
         curr = x + y
         x = y
 
-    print(curr, sep=",")
+    print(curr, end=", ")
 # FIM

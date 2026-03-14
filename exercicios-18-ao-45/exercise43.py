@@ -12,5 +12,5 @@ while (ana_height <= maria_height):
     ana_height += ana_ratio / 100
     maria_height += maria_ratio / 100
     years += 1
-print(years)
+print(f"Serão necessários {years} anos para que Ana seja maior que Maria")
 # FIM

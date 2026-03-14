@@ -5,12 +5,13 @@ num: int = 0
 
 # INICIO
 while (num <= 0):
-    num = int(input(">>>"))
+    num = int(input("Digite um número inteiro: "))
+print("A série é: ", end="")
 for x in range(1, num):
     if (x != 1):
-        print(f"1/{x}")
+        print(f"1/{x}", end="")
     else:
-        print("1")
+        print("1", end="")
     if (x < num - 1):
-        print(" + ")
+        print(end=" + ")
 # FIM

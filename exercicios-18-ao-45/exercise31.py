@@ -4,5 +4,5 @@
 
 # INICIO
 for n in range(10, 151, 1):
-    print(f"{n}²={n**2},")
+    print(f"{n}²={n**2}", end=" -> ")
 # FIM

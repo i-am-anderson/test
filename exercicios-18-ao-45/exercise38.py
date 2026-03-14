@@ -7,8 +7,8 @@ bigger: int = 0
 smaller: int = 0
 
 # INICIO
-while (count < 5):
-    num = int(input(">>>"))
+while (count < 100):
+    num = int(input(f"Digite o {count + 1}° número: "))
     if (num > 0):
         if (count == 0):
             bigger = smaller = num
@@ -19,5 +19,6 @@ while (count < 5):
                 smaller = num
         count += 1
 
-print(f"Smaller: {smaller} - Bigger: {bigger}")
+print(
+    f"O maior valor digitado foi: {smaller} - O menor valor digitado foi: {bigger}")
 # FIM
