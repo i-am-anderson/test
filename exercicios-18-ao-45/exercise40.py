@@ -8,6 +8,7 @@ ehPrimo: bool = True
 
 # INICIO
 while ((a <= 0 and b <= 0) or a >= b):
+    print("...O PRIMEIRO NÚMERO PRECISA SER MAIOR QUE O SEGUNDO...")
     a = int(input("Digite o primeiro número: "))
     b = int(input("Digite o segundo número: "))
 print(f"Os números primos entre {a} e {b} são:")
