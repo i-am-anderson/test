@@ -20,10 +20,10 @@ def escreveArq(caminho, arquivo, linha_arq):
     tipo: str = ""
     enc: str = ""
 
-    if (os.path.exists(dir) and os.path.isdir(dir)):
+    if (os.path.exists(caminho) and os.path.isdir(caminho)):
         tipo = "w"
         enc = "utf-8"
-        file = os.path.join(dir, arq)
+        file = os.path.join(caminho, arquivo)
 
         if (os.path.exists(file) and os.path.isfile(file)):
             tipo = "a"
