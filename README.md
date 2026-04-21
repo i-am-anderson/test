@@ -177,6 +177,14 @@ Os scripts podem ser executados diretamente no navegador [clicando aqui](https:/
 
 3. Resolver o exercício 36, modularizando a operações. Deve- se ter uma função que calcule e retorne o fatorial de um número, pra função que calcule e retorne a divisão. Deve-se fazer um procedimento que grave cada termo do somatório num arquivo e, por fim, o resultado final.
 
+### Sexta Entrega
+
+1. Resolver o exercício 31, gravando todos os valores num arquivo. Deve-se fazer um procedimento para gravação e caso o arquivo já exista, ele deve ser descartado e gravado do início novamente.
+
+2. Resolver o exercício 37, gravando todos os valores num arquivo. Deve-se fazer um procedimento para gravação, sendo que, o arquivo deve ser atualizado a cada termo gerado. Na gravação do primeiro termo, deve-se fazer uma verificação, caso o arquivo já exista, ele deve ser descartado e gravado do início novamente.
+
+3. Em complemento ao enunciado anterior, fazer uma aplicação Python, que leia o arquivo com os termos da série de Fibonacci e imprima na tela só os números ímpares. A aplicação deve ter um procedimento de leitura, uma função que valide se o número é ímpar e retorne o número para ser impresso. Caso não seja ímpar, a função deve retornar -1, que não deve ser impresso em console.
+
 ### EXTRA
 
 30. Receba a data de nascimento e atual em ano, mês e dia. Calcule e mostre a idade em anos, meses e dias, considerando os anos bissextos.
