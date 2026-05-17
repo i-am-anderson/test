@@ -1,4 +1,4 @@
-# 1) Fazer uma aplicação que rode 5 Threads que cada uma delas receba um inteiro chamado id como parâmetro e imprima no console o texto “Thread #” + id. Antes de imprimir o valor, deve- se fazer um sleep de 0.5 segundos.
+# 1. Fazer uma aplicação que rode 5 Threads que cada uma delas receba um inteiro chamado id como parâmetro e imprima no console o texto “Thread #” + id. Antes de imprimir o valor, deve- se fazer um sleep de 0.5 segundos.
 
 import multiprocessing
 import time
