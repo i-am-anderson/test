@@ -3,6 +3,7 @@
 import multiprocessing
 import platform
 import subprocess
+import time
 
 
 def so_name():
@@ -63,6 +64,7 @@ def ping(server_name):
                 data = data[5]
                 print(f"Tempo médio de reposta do {server_name}: {data}")
             line = output.stdout.readline().decode("utf-8", errors="ignore")
+            time.sleep(0.1)
     else:
         print("Sistema operacional não suportado.")
 

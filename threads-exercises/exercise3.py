@@ -2,6 +2,7 @@
 
 import multiprocessing
 import random
+import time
 
 
 def process_thread(id):
@@ -14,6 +15,7 @@ def process_thread(id):
     while distance < max_distance:
         jump = random.randint(min_jump, max_jump)
         distance += jump
+        time.sleep(0.1)
         print(f"Sapo {id} pulou {jump} cm. Distância percorrida: {distance} cm.")
 
     print(f"Sapo {id}: Chegou ao final da corrida!")
