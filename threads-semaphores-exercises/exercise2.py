@@ -24,7 +24,7 @@ def process_thread(id):
         print(
             f"Pessoa {id} está caminhando. Distância restante: {max(distance, 0):.2f} m"
         )
-        time.sleep(0.1)
+        time.sleep(1)  # Simula o tempo de caminhada (1 segundo)
 
     with sem:
         print(f"Pessoa {id} está cruzando a porta.")
