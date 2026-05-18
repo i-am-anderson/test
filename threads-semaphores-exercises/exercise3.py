@@ -4,7 +4,7 @@ import multiprocessing
 import random
 import time
 
-ranking_shared: None
+ranking_shared: int = [0] * 5
 sem: None
 
 
@@ -42,7 +42,7 @@ def process_thread(id):
 
 def main():
     threads: int = 5
-    qty_threads_sem: int = 1
+    qty_threads_sem: int = 5
     params: int = [0] * threads
     ranking: int = [0] * threads
     semaphore = None
@@ -51,7 +51,7 @@ def main():
         # Variável compartilhada para controlar a posição dos sapos na corrida
         ranking = manager.list()
 
-        # Semáforo para controlar o acesso à variável compartilhada com permissão de apenas uma (1) thread por vez (mutex)
+        # Semáforo para controlar o acesso à variável compartilhada com permissão de apenas X (qty_threads_sem) thread(s) por vez
         semaphore = manager.Semaphore(qty_threads_sem)
 
         for i in range(threads):
@@ -62,9 +62,9 @@ def main():
         ) as pool:
             pool.map(process_thread, params)
 
-        # print("\nRanking final dos sapos:")
-        # for i, sapo in enumerate(ranking):
-        #     print(f"{i + 1}º lugar: Sapo {sapo}")
+        print("\nRanking final dos sapos:")
+        for i, sapo in enumerate(ranking):
+            print(f"{i + 1}º lugar: Sapo {sapo}")
 
 
 if __name__ == "__main__":
